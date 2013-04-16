@@ -71,8 +71,8 @@ Project pom.xml refereces ApprovalTests.jar using following dependency declarati
 
 
 ### Note: using addjars-maven-plugin with ApprovalTests.jar does not work!
-Alas, using addjars-maven-plugin to automagically add ApprovalTests.jar as maven
-project dependency directly from PROJECT/lib folder does not work. 
+Alas, using addjars-maven-plugin to automagically install ApprovalTests.jar directly from
+{PROJECT}/lib folder and automatically add it as project dependency does not work. 
 
 Call to Approvals.verify() will throw exception
 saying test source file cannot be located. See [here] (https://github.com/approvals/ApprovalTests.Java/issues/1) for details.
