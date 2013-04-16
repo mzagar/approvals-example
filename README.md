@@ -5,7 +5,8 @@ in order to use it as 'ordinary' maven dependency I suggest to install it
 to local or remote maven repository specifying some custom groupId, artifactId and version.
 
 Description of several approaches to mavenizing ApprovalTests.jar follows.
-This project uses Approach#3 (see bellow).
+
+This project uses Approach#3 (see bellow) with ApprovalTests.jar v0.13.
 
 
 ### Approach 1 - adding ApprovalTests.jar to remote repository
