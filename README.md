@@ -15,7 +15,7 @@ in repository specifying custom groupId, artifactId and version.
 
 Then you can add dependency declaration as usual and you're done.
 
-### Approach 2 - manually installing ApprovalTests.jar as artifact in local repository
+### Approach 2 - installing ApprovalTests.jar in local repository from command line
 To manually install ApprovalTests.jar v0.13 in local repository from command line, use this maven command:
 
 ```
@@ -31,7 +31,7 @@ You can then reference ApprovalTests artifact by adding following dependency dec
         </dependency>
 ```
 
-### Approach 3 - configuring maven-install plugin to add ApprovalTests.jar to local repository in pom.xml
+### Approach 3 - configuring maven-install plugin in pom.xml to add ApprovalTests.jar in local repository
 
 See this project's pom.xml as example how to configure maven-install-plugin & bind it to maven initialize phase to install ApprovalTests.jar as maven artefact in local repository.
 
