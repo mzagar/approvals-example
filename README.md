@@ -6,7 +6,7 @@ to local or remote maven repository specifying some custom groupId, artifactId a
 
 Description of several approaches to mavenizing ApprovalTests.jar follows.
 
-This project uses Approach#3 (see bellow) with ApprovalTests.jar v0.13.
+*This project uses Approach#3 (see bellow) with ApprovalTests.jar v0.13.*
 
 
 ### Approach 1 - adding ApprovalTests.jar to remote repository
