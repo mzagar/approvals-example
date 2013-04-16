@@ -19,7 +19,12 @@ Then you can add dependency declaration as usual and you're done.
 To manually install ApprovalTests.jar v0.13 in local repository from command line, use this maven command:
 
 ```
-mvn install:install-file -Dfile=ApprovalTests.jar -DgroupId=com.github.approvals -DartifactId=ApprovalTests -Dversion=0.13 -Dpackaging=jar
+mvn install:install-file 
+    -Dfile=ApprovalTests.jar 
+    -DgroupId=com.github.approvals 
+    -DartifactId=ApprovalTests 
+    -Dversion=0.13 
+    -Dpackaging=jar
 ```
 
 You can then reference ApprovalTests artifact by adding following dependency declaration:
