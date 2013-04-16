@@ -50,7 +50,8 @@ $ mvn clean install
 Build should be successful and all tests should pass.
 ```
 
-In initialize phase 'mvn initialize', maven-install-plugin will copy approvals-exampl/lib/ApprovalTests-0.13.jar to local repository creating artefact with 
+In initialize phase 'mvn initialize', maven-install-plugin will copy approvals-exampl/lib/ApprovalTests-0.13.jar
+to local repository creating artifact with 
 * groupId=com.github.approvals, 
 * artifactId=ApprovalTests, 
 * version=0.13, 
