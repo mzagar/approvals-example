@@ -45,7 +45,7 @@ Follow these steps:
 $ git clone https://github.com/mzagar/approvals-example.git
 $ cd approvals-example
 $ mvn initialize
-$ mvn clean test
+$ mvn clean install
 ...
 Build should be successful and all tests should pass.
 ```
